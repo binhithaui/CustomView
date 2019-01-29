@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IndicatorCustomView">
+        <attr name="indicator_radius_selected" format="dimension"/>
+        <attr name="indicator_radius_unselected" format="dimension"/>
+        <attr name="indicator_color_selected" format="color"/>
+        <attr name="indicator_color_unselected" format="color"/>
+        <attr name="indicator_spacing" format="dimension"/>
+    </declare-styleable>
+</resources>

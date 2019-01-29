@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black">
+    <TextClock
+            android:id="@+id/mTextClock"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:format24Hour="hh:mm:ss a"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+    <TextView
+            android:id="@+id/mTextView_Date"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:textSize="@dimen/ts_14sp"
+            android:textColor="@android:color/white"/>
+    <ImageView
+            android:id="@+id/mImageView_Avatar_User"
+            android:contentDescription="@null"
+            android:layout_margin="10dp"
+            android:layout_width="?android:attr/actionBarSize"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape_circle"/>
+    <TextView
+            android:id="@+id/mTextView_Title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/ts_20sp"
+            android:textColor="@android:color/white"
+            android:text="Enter your pin code"/>
+    <TextView
+            android:id="@+id/mTextView_Content_Sub"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:text="Input pin code to open lock screen"
+            android:gravity="center"
+            android:textSize="@dimen/ts_16sp"
+            android:lines="2"/>
+    <TextView
+            android:id="@+id/mTextView_Password"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textSize="@dimen/ts_16sp"
+            android:lines="2"/>
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mRecycle_Button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.5"/>
+</LinearLayout>
